@@ -1,0 +1,159 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+.contenedor {
+    
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 800px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0);
+
+    
+}
+
+.izquierda {
+    position: relative;
+    background: #212026;
+    color: white;
+}
+
+.derecha {
+    position: relative;
+    background: #fff;
+    color: #2d2d2d;
+    
+}
+
+.contenedor .derecha .bloqueAmarillo {
+    position: relative;
+    margin-top: 50px;
+    background: rgb(0, 217, 255);
+    padding: 20px;
+}
+
+.contenedor .derecha .bloqueBlanco {
+    position: relative;
+    background: #fff;
+    padding: 30px;
+}
+
+.contenedor .derecha .bloqueBlanco .perfil {
+    color: black;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+
+.subtitulo {
+    color: black;
+    text-align: left;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+}
+
+.imgRedonda {
+    
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 60px;
+   
+    
+
+}
+
+
+.linea {
+    border-top: 1.4px solid rgb(0, 217, 255);
+    height: 5px;
+    width: auto;
+    margin-left: 40px;
+    
+}
+
+h3 {
+    margin-left: 40px  ;
+}
+
+.lista {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.item {
+    padding: 4px;
+}
+
+.vineta {
+    
+    height: 20px;
+    background: rgb(0, 217, 255);   
+}
+
+.vineta2 {
+    
+    height: 20px;
+    background: #292a2f;
+    margin-left: 40px;
+    
+}
+
+.datoscontacto {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 40px;
+    
+}
+
+.contenedor .izquierda .vineta .vineta2 .textovi {
+    color: rgb(249, 249, 251);
+    font-size: 18px;
+    padding: 2px;
+}
+
+.contenedor .izquierda .p1 {
+    color:white;
+    font-size: 13px;
+    margin-left: 45px;
+    padding: 5px;
+}
+
+.contenedor .derecha .experiencia {
+    text-align: justify;
+    padding-bottom: 20px;
+    margin-left: 150px;
+}
+
+.anios {
+    padding-top: 35px;
+    block-size: 0;
+}
